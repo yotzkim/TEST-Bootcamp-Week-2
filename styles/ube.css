@@ -1,5 +1,5 @@
 body{
-    background: #f4d9d9;
+    background: #ecb1ef;
     font-family: "Verdana", sans-serif;
 }
 
@@ -14,4 +14,12 @@ body{
 #ube{
     color: rgb(116, 32, 116)
 }
+
+#ubepie{
+    position: absolute;
+    right: 15%;
+    bottom: 22.5%;
+}
+
+
 
