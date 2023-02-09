@@ -1,4 +1,49 @@
-body{
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  
+  .grid-item {
+    position: relative;
+  }
+  
+  .normal {
+    display: block;
+  }
+  
+  .hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .grid-item:hover .normal {
+    display: none;
+  }
+  
+  .grid-item:hover .hover {
+    display: block;
+  }
+  
+  .text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  #images{
+    width: 100%;
+    height: 100%;
+  }
+
+/* body{
     background: #f4d9d9;
     font-family: "Lucida Handwriting", cursive;
 }
@@ -39,4 +84,4 @@ body{
     position: absolute;
     right: 13.6%;
     bottom: 30%;
-}
+} */
